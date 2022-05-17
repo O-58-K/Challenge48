@@ -1,0 +1,86 @@
+header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+
+.contact  {
+    display: block;
+    }
+    .contact-form .form-group{
+        margin: 20px 0px;
+    }
+    .contact-form {
+        width: 400px;
+        margin: 0 auto;
+        font-weight: bold;
+    }
+    .contact-form .form-group label {
+        display: block;
+        margin: 10px
+    }
+    .contact-form .form-group input[type="text"] {
+        height: 35px;
+        width: 350px;
+        border: 2px solid green;
+        border-color: #919191;
+        border-style: solid; 
+        font-size: 20px
+        padding-left : 10px;
+    }
+    .contact-form .form-group input[type=text]:focus {
+        border: 5px solid #2879E3;
+        outline: none;
+        transition: 0.3s ease-in;
+    }
+
+    .contact-form .form-group input[type="email"] {
+        height: 35px;
+        width: 350px;
+        border: 2px solid green;
+        border-color: #919191;
+        border-style: solid; 
+        font-size: 20px
+        padding-left : 10px;
+    }
+    .contact-form .form-group input[type=email]:focus {
+        border: 5px solid #2879E3;
+        outline: none;
+        transition: 0.3s ease-in;
+    }
+
+    .contact-form .form-group input[type="password"] {
+        height: 35px;
+        width: 350px;
+        border: 2px solid green;
+        border-color: #919191;
+        border-style: solid; 
+        font-size: 20px
+        padding-left : 10px;
+    }
+    .contact-form .form-group input[type=password]:focus {
+        border: 5px solid #2879E3;
+        outline: none;
+        transition: 0.3s ease-in;
+    }
+    
+
+    
+    .contact-form input[type="submit"] {
+        padding: 20px;
+        width: 150px;
+        height: 45px;
+        text-transform: uppercase;
+        background-color: black;
+        color: white;
+    
+    }
+
+    footer{
+        position: absolute;
+        padding-left: 550px;
+        width: 700px;
+        background-color: #2879E3 ;
+        color: white;
+    }
