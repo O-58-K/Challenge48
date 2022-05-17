@@ -1,7 +1,0 @@
-Types d'attaques : 
-
-	Bruteforce Password
-	DoS ou DDoS
-	Injection XSS
-	Injection SQL
-	JS Execution
